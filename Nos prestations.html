@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head><!-- Entête HTML================================= -->
+  <meta charset='UTF-8' />
+  <title> NOS PRESTATIONS </title>
+   <link rel='stylesheet' href='styles.css'/>
+   <img alt="synergie" src="img/logo.png"/>
+  
+ </head>
+ 
+ <body>
+    <nav>
+	    <ul>
+         <li><a href="index.html">ACCUEIL</a></li><!--------------- MENU===================================================== -->
+         <li><a href="Qui sommes nous.html">QUI SOMMES NOUS</a></li>
+         <li><a href="Nos prestations.html">NOS PRESTATIONS</a></li>
+         <li><a href="Contact.html">CONTACT</a></li>
+		</ul>
+     </nav>
+ 
+ <a href="url de ton site" target="_blank"><img src=img/banniereVFinale.png border="0" width="100%" height="hauteur bannière"></a>
+ 
+   
+   <script type="text/javascript"> 
+   
+   function masquer_resume (event) 
+   {
+   var $resume = document.getElementById("resume") ;
+   var $lien_lundi = document.getElementById("lien_lundi") ;
+//var $elem = document.getElementById(pIdEl) ;
+//	alert("toto");
+if ($resume.style.display == "none"){
+	$lien_lundi.innerHTML = "Masquer le résumé";
+	$resume.style.display = "block" ;
+	} 
+else {
+	$resume.style.display = "none" ;
+	$lien_lundi.innerHTML = "Afficher le résumé";
+	}
+      
+   }
+      
+   </script>
+   
+   
+   
+ </head>
+ 
+ <body>
+ 
+  <h1> Créer</h1>
+   <p> Où s’adresser pour avoir des informations fiables, comment faire son étude de marché, à quoi sert le plan de financement, 
+   comment rédiger un bon business plan, où trouver le financement, comment franchir les différentes étapes,… sont autant de questions 
+   que les clients se posent?</p>
+  
+   <p> <a id="lien_lundi" href="javascript:void(0)" onclick="masquer_resume();"> Masquer_le_resumé</a>  <p id="resume"> Nous répondons à toutes les demandes. Des plus simples au plus sophistiquées et complexe. Nous répondrons aussi bien à une 
+   demande d’entête de lettre qu'un projet totalement farfelu. Donner le meilleur de nous même quelque soit le projet est une notion
+   fondamentale pour Imprimerie de Paris. Nos forces  : une belle équipe? Nous sommes des passionnées </p>  </p> </p>
+   <img src =Images/'Machine.jpg' alt = 'machine'/>
+   
+    <h1> Développer</h1>
+   <p> <a id="lien_lundi" href="javascript:void(0)" onclick="masquer_resume();"> Masquer_le_resumé</a>  <p id="resume">Nous avons la préoccupation de répondre à vos attentes de manière efficace. <a href="Sérigraphie.html">lire la suite</a>
+• Machines d’impression permettant de donner à vos travaux toute la qualité requise,Nous vous assurons une production de qualité et un respect des délais parce que notre <a href="Equipe.html">équipe</a> 
+   exerce son professionnalisme et est dotée du
+</p></p>  </p> 
+   
+</body>
+<!----------------------------------------------------------------------- FOOTER ============================================================ -->
+<footer>
+ <ul>
+  <li><a href="Contact.html">Nous contacter</a></li>
+  <li><a href="Mentions légales.html">Mentions Légales</a></li>
+  <li><a href="index.html">Retour à la page d'acceuil</a></li>
+ </ul>
+ </footer>
+ </html>

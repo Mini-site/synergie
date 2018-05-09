@@ -1,0 +1,64 @@
+
+/*---------------------------------------MENU-HAUT .menuHaut ---------------------------------------------------------------*/
+
+  header div{animation: mymove 4s linear 0s infinite alternate; }
+  @keyframes mymove {  0% {background-image:var(--banniere VFinale.png); }
+                   100% {background-image:var(--2banniere VFinale.png); }
+}
+
+/*---------------------------------------declarer flotte ---------------------------------------------------------------*/
+
+.flotte {
+	float: left;
+}
+.texte-article { padding-left: 20px;}
+nav ul, footer ul {
+   padding: 0px;
+   margin: 0px;
+   list-style-type:none;
+   background-color:#ECF6CE;     /*#ECF6CE    #117711*/
+   text-align:center;
+}
+
+nav li, footer li {
+   display:inline-block;
+   font: 1em "Trebuchet MS",Arial,sans-serif ;
+   line-height: 1em ;
+   text-align: center ;
+   text-decoration: none ;
+   padding: 4px 0 ;
+   width:200px;
+   height:40px;
+   line-height:40px;
+   border-right:1px solid #117711;
+  }
+ 
+  
+nav li, footer li :hover{
+	 background-color:#ECF6CE;    /*#ECF6CE    #117711      #116611;*/
+	 
+}
+ 
+nav li a, footer li a {
+	 display:block;
+	 text-decoration:none;
+	 color:#117711       /*#ECF6CE    #117711      #116611;*/
+}
+
+body,h1,h2,nav,ul,li,article,section{margin:0; padding:0; border:0;}
+  p{-webkit-margin-before:0; }
+  
+  h1{text-align:center; color:black }
+  p, section, article{padding:7px}
+  
+  section{background:white; }
+  article{background:blanc; }
+  
+  #p1{background:white; }
+  /* #p2{background:orange; width:40%; margin:-60px à 	à 50%; } */
+  /* #p3{background:orange; width:40%; margin:-60px à à 50%; } */
+  
+  
+  .flotte {
+float:left;
+}
